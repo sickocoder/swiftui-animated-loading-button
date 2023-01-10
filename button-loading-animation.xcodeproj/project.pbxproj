@@ -11,6 +11,8 @@
 		2C634BE8296D6BE500ACF64E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C634BE7296D6BE500ACF64E /* ContentView.swift */; };
 		2C634BEA296D6BE600ACF64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C634BE9296D6BE600ACF64E /* Assets.xcassets */; };
 		2C634BED296D6BE600ACF64E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C634BEC296D6BE600ACF64E /* Preview Assets.xcassets */; };
+		2C634BF4296D7C1600ACF64E /* AnimatedCheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C634BF3296D7C1600ACF64E /* AnimatedCheckmarkView.swift */; };
+		2C634BF6296D7C4800ACF64E /* CheckmarkShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C634BF5296D7C4800ACF64E /* CheckmarkShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2C634BE7296D6BE500ACF64E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C634BE9296D6BE600ACF64E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C634BEC296D6BE600ACF64E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C634BF3296D7C1600ACF64E /* AnimatedCheckmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCheckmarkView.swift; sourceTree = "<group>"; };
+		2C634BF5296D7C4800ACF64E /* CheckmarkShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		2C634BE4296D6BE500ACF64E /* button-loading-animation */ = {
 			isa = PBXGroup;
 			children = (
-				2C634BE5296D6BE500ACF64E /* button_loading_animationApp.swift */,
-				2C634BE7296D6BE500ACF64E /* ContentView.swift */,
-				2C634BE9296D6BE600ACF64E /* Assets.xcassets */,
+				2C634BF8296D7C7400ACF64E /* Views */,
+				2C634BF9296D7C8000ACF64E /* Shapes */,
+				2C634BF7296D7C6000ACF64E /* Screens */,
 				2C634BEB296D6BE600ACF64E /* Preview Content */,
+				2C634BE5296D6BE500ACF64E /* button_loading_animationApp.swift */,
+				2C634BE9296D6BE600ACF64E /* Assets.xcassets */,
 			);
 			path = "button-loading-animation";
 			sourceTree = "<group>";
@@ -65,6 +71,30 @@
 				2C634BEC296D6BE600ACF64E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C634BF7296D7C6000ACF64E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2C634BE7296D6BE500ACF64E /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2C634BF8296D7C7400ACF64E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C634BF3296D7C1600ACF64E /* AnimatedCheckmarkView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C634BF9296D7C8000ACF64E /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				2C634BF5296D7C4800ACF64E /* CheckmarkShape.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C634BE8296D6BE500ACF64E /* ContentView.swift in Sources */,
+				2C634BF6296D7C4800ACF64E /* CheckmarkShape.swift in Sources */,
 				2C634BE6296D6BE500ACF64E /* button_loading_animationApp.swift in Sources */,
+				2C634BF4296D7C1600ACF64E /* AnimatedCheckmarkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
